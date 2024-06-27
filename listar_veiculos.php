@@ -57,7 +57,7 @@
                         $linha .= "<td>{$veiculo['id']}</td>";
                         $linha .= "<td>{$veiculo['placa']}</td>";
                         $linha .= "<td>{$veiculo['modelo']}</td>";
-                        $linha .= "<td>{$veiculo['tipo_veiculo']}</td>";
+                        $linha .= "<td>{$tipo}</td>";
                         $linha .= "<td>{$veiculo['ano']}</td>";
                         $linha .= "<td>{$cliente->getResult()[0]['nome']}</td>";
 
